@@ -4,6 +4,7 @@ button.addEventListener('click', function(){
   getJoke();
 });
 
+
 var paragraph = document.getElementById('joke');
 
 function getJoke() {
@@ -16,3 +17,4 @@ function getJoke() {
 	xhr.send();
 }
 
+window.onload = function() {getJoke()};
